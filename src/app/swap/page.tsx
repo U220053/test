@@ -1,7 +1,9 @@
 import { Metadata } from "next";
 import App from "~/app/app";
 
-const appUrl = process.env.NEXT_PUBLIC_URL;
+const appUrl =
+  "https://2b64-2405-201-800c-8088-65df-4cbc-53c2-fd9b.ngrok-free.app";
+// process.env.NEXT_PUBLIC_URL;
 
 export const revalidate = 300;
 
