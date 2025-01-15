@@ -15,7 +15,7 @@ export async function generateMetadata({
   searchParams,
 }: Props): Promise<Metadata> {
   const { token } = await searchParams;
-
+  console.log("token", token);
   const frame = {
     version: "next",
     imageUrl: `${appUrl}/opengraph-image?token=${token}`,
